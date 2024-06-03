@@ -1,6 +1,8 @@
 :root {
 	--dark-brown: #3a220c;
 	--light-beige: #d7b891;
+	--orange-brown: #bf7f35;
+	--herb-green: #87966b;
 }
 
 *, *::before, *::after { box-sizing: inherit; }
@@ -10,6 +12,29 @@ html {
 }
 
 body {
+	width: 500px;
+	margin: 0 auto;
+	
 	color: var(--dark-brown);
+	background-color: var(--herb-green);
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
 	background-color: var(--light-beige);
+	padding: 1rem 2rem;
+	border:medium solid var(--orange-brown);
+	border-radius: 1rem;
+	color: var(--dark-brown);
+}
+
+a {
+	color: var(--dark-brown);
+}
+
+a:hover {
+	color: var(--orange-brown);
 }
