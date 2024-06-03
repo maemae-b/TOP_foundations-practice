@@ -2,7 +2,7 @@
 	--dark-brown: #3a220c;
 	--light-beige: #d7b891;
 	--orange-brown: #bf7f35;
-	--herb-green: #87966b;
+	--herb-green: #64704e;
 }
 
 *, *::before, *::after { box-sizing: inherit; }
@@ -21,10 +21,42 @@ body {
 
 h1 {
 	text-align: center;
+	background-color: var(--herb-green);
+	color: var(--light-beige);
+	
+	padding: 1rem;
+	margin-top: 0;
 }
 
 img {
 	border:medium solid var(--orange-brown);
 	border-radius: 2rem;
 	max-width: 500px;
+}
+
+div.description {
+	margin: 1rem 0;
+	background-color: var(--light-beige);
+	padding: 1rem 2rem;
+	border:medium solid var(--orange-brown);
+	border-radius: 1rem;
+	color: var(--dark-brown);
+}
+
+div.ingredients {
+	margin: 1rem 0;
+	background-color: var(--light-beige);
+	padding: 1rem 2rem;
+	border:medium solid var(--orange-brown);
+	border-radius: 1rem;
+	color: var(--dark-brown);
+}
+
+div.instructions {
+	margin: 1rem 0;
+	background-color: var(--light-beige);
+	padding: 1rem 2rem;
+	border:medium solid var(--orange-brown);
+	border-radius: 1rem;
+	color: var(--dark-brown);
 }
