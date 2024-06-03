@@ -1,3 +1,10 @@
+:root {
+	--dark-brown: #3a220c;
+	--light-beige: #d7b891;
+	--orange-brown: #bf7f35;
+	--herb-green: #87966b;
+}
+
 *, *::before, *::after { box-sizing: inherit; }
 
 html {
