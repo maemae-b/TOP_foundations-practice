@@ -2,7 +2,7 @@
 	--dark-brown: #3a220c;
 	--light-beige: #d7b891;
 	--orange-brown: #bf7f35;
-	--herb-green: #87966b;
+	--herb-green: #64704e;
 }
 
 *, *::before, *::after { box-sizing: inherit; }
@@ -21,6 +21,7 @@ body {
 
 h1 {
 	text-align: center;
+	color: var(--light-beige);
 }
 
 ul {
