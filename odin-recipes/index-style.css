@@ -3,3 +3,8 @@
 html {
 	box-sizing: border-box;
 }
+
+body {
+	color: #5c3411;
+	background-color: #d4a976;
+}
