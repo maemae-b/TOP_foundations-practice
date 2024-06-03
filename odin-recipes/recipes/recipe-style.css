@@ -12,6 +12,19 @@ html {
 }
 
 body {
+	width: 500px;
+	margin: 0 auto;
+
 	color: #5c3411;
 	background-color: #d4a976;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	border:medium solid var(--orange-brown);
+	border-radius: 2rem;
+	max-width: 500px;
 }
